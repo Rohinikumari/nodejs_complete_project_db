@@ -1,2 +1,2 @@
 const fs = require(`fs`)
-fs.createWriteStream(`testing.txt`,`Hello from Node.js`)
+fs.writeFileSync(`testing.txt`,`Hello from Node.js`)
